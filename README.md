@@ -1,5 +1,5 @@
 # Leads Tracker
-a chrome extension that helpss you track your leads 
+A chrome extension that helps you track and manage your business leads 
 
 ## Built With
 
@@ -9,7 +9,7 @@ a chrome extension that helpss you track your leads
 
 
 ### Installation Instructions
-**Google Chrome** (Custom sites supported)
+**Google Chrome** (Custom site supported)
 1. Download this repo as a zip file
 2. Unzip the file and you should have a folder named `lead tracker`.
 3. In Chrome go to the extensions page (`chrome://extensions`).
@@ -23,11 +23,14 @@ a chrome extension that helpss you track your leads
 
 1. To get started with this project you need 
 follow the installation instruction
-2. first click the “Extensions” button. It’s the icon that looks like a small puzzle piece next to the search bar.
+2.  click the “Extensions” button. It’s the icon that looks like a small puzzle piece next to the search bar on the chrome toolbar .
 3. locate the leads track chrome extension, click on it to get started.
 4. if you want to pin leads tracker extension to the chrome toolbar, click on the pin icon next to the extension.
-5. click on the savetab to save the active tab url or save input to save the your input 
-6. saved tabs can be edited and deleted enjoy ! 🎉
+5. click on the savetab to save the active tab url 
+6. click on  save input to save the your input 
+6. saved tabs can be edited and deleted 
+
+enjoy ! 🎉
 ## Authors
 
 👤 **Agwunobi sopulu**
