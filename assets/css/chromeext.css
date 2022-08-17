@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+body {
+  min-width: 300px;
+  max-width: 400px;
+  padding: 20px;
+  padding-top: 0.5rem;
+}
+
+.btntxt {
+  color: whitesmoke;
+  background-color: #004ba8;
+  border: 1px solid #004ba8;
+  padding: 0.6rem 1rem;
+  margin: 5px 0;
+  font-size: 71.875%;
+ font-weight: bold;
+  transition: all 0.35s ease-in;
+  -webkit-transition: all 0.35s ease-in;
+  -moz-transition: all 0.35s ease-in;
+  -ms-transition: all 0.35s ease-in;
+  -o-transition: all 0.35s ease-in;
+  -webkit-transition: all ease-in 0.15s;
+}
+
+.btntxt:hover {
+  background-color: #003f66;
+}
+.delbtn {
+  background-color: #d61923;
+  color: whitesmoke;
+  border-color: rgb(201, 189, 189);
+}
+.delbtn:hover {
+  background-color: #c4242c;
+}
+
+#inputtxt {
+  padding: 0.4rem 0.3rem;
+  outline: none;
+  letter-spacing: 1px;
+  width: 100%;
+  border: 1px solid #3e78b2;
+}
+
+ol {
+  list-style-type:armenian;
+  font-weight: 500;
+}
+
+li {
+  margin-top: 5px;
+  border: 0.5px solid #3e78b2;
+  padding: 0.2rem;
+  background-color: #bbd7e977;
+  font-size: 0.85rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li a {
+  overflow: hidden;
+}
+.btncn {
+  display: flex;
+  margin-left: 0.2rem;
+}
+
+.edit-btn,
+.delete-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.7rem;
+  margin: 0 0.1rem;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.edit-btn {
+  color:#0575bc;
+}
+.delete-btn {
+  color: hsl(360, 71%, 66%);
+}
+.edit-btn:hover,
+.delete-btn:hover {
+  outline: 1px solid;
+}
+a {
+  color: #0575bc;
+  text-decoration: none;
+  letter-spacing: .2px;
+}
+.alert {
+  display: grid;
+  place-items: center;
+}
+.errormessage {
+  width: 100%;
+ 
+  font-weight: bold;
+  text-transform: capitalize;
+  max-width: 250px;
+  visibility: hidden;
+  margin-bottom: 0.5rem;
+  /* height: 1.25rem; */
+  text-align: center;
+  font-size: .70rem;
+  border-radius: 0.25rem;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+
+}
+.error{
+  visibility: visible; 
+  color: hsl(360, 71%, 66%);
+}
+.sucess{
+  visibility: visible;
+  color: #17d446;
+}
+.alert i {
+  color: hsl(360, 71%, 66%);
+
+  font-size: 18px;
+}
+.txt {
+  font-size: 12px;
+}

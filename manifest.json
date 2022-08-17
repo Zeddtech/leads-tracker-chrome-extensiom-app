@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "version": "1.1",
+    "name": "Leads tracker",
+    "description": "An extension that helps you keep a track of your leads.",
+    "author": "Agwunobi sopulu",
+    "action": {
+        "default_title": "Leads Tracker",
+        "default_popup": "index.html",
+        "default_icon": "icon.jpg"
+    },
+    "permissions":[
+        "storage",
+        "tabs"
+        ]
+}
